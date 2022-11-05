@@ -1,0 +1,109 @@
+html, body{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    background-image: radial-gradient(rgba(39, 155, 155, 0.768),#94d8d6,#33928f,#e0fffe);
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.container,h1{
+    font-style: italic;
+    font-family: Georgia;
+}
+.container>img{
+    width:28%;
+    border-style:dotted;
+    margin-left: 5%;
+}
+
+.tab_navigation{
+    padding: 0;
+    margin: 0;
+    list-style:lower-latin;
+}
+.tab_navigation li{
+    display: inline-block;
+    padding: 5px 15px;
+    background: #229490;
+    min-width: 100px;
+    text-align: center;
+    color: rgb(2, 26, 26);
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.tab_navigation li.active,
+.tab_navigation li:hover{
+    background: #0e5b57;
+}
+
+.tab_container{
+    padding: 10px;
+    background: #16a49d;
+    color: rgb(2, 21, 23);
+    border-radius: 0 5px 5px 5px;
+    display: none;
+}
+
+
+.tab_navigation1{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.tab_navigation1 li{
+    display: inline-block;
+    padding: 5px 15px;
+    background: #158e93;
+    min-width: 100px;
+    text-align: center;
+    color: rgb(0, 15, 15);
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.tab_navigation1 li.active,
+.tab_navigation1 li:hover{
+    background: #054044;
+}
+.tab_container1{
+    padding: 10px;
+    background: #11959c;
+    color: #fff;
+    border-radius: 0 5px 5px 5px;
+    display: none;
+}
+
+.accordian_box{
+    border: 1px solid rgb(179, 166, 166);
+    padding: 0 15px 1px;
+    background: #e1e1e1;
+    color: #4a4141;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.accordian_box.active{
+    background: #fff;
+}
+.acc_trigger{
+    padding: 15px 40px 15px 0;
+    margin: 0;
+    font-family: 30px;
+    position: relative;
+}
+.acc_trigger i{
+    position: absolute;
+    right:  0;
+    top: 16px;
+    font-size: 20px;
+}
+.acc_container{
+    display: none;
+}
+.acc_container p{
+    margin-top: 0px;
+    line-height: 1.6;
+}
